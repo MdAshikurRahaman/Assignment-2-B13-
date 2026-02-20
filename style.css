@@ -121,7 +121,7 @@ a{
   align-items: center;
   gap: 10px;
   padding: 10px 20px;
-  border: none;
+  /* border: none; */
   border-radius: 30px;
   cursor: pointer;
 }
@@ -146,13 +146,14 @@ a{
 }
 
 .subscriber-btn{
-  height: 50px;
+  
   width: 200px;
   border-radius:30px;
-  background: transparent;
+  /* background: transparent; */
   border: 2px solid #00ff87;
   color: #00ff87;
   text-align: center;
+  background: transparent;
 }
 
 /* PODCAST SECTION  */
@@ -320,6 +321,8 @@ h1 {
 }
 
 .video1{
+  align-items: center;
+
   padding-left: 24px;
   color: #00ff87;
   display: flex;
@@ -404,9 +407,10 @@ h1 {
 
 .footer-item{
   display: flex;
-  flex-direction: column;
+
   align-items: center; 
- 
+  display: flex;
+  gap: 8px;
 }
 
 .social-icon {
@@ -414,6 +418,9 @@ h1 {
     height: 24px;
     object-fit: contain;
     cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    display: flex;
 }
 
 .footer-element-color{
