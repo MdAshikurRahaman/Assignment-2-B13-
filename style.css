@@ -150,10 +150,13 @@ a{
   height: 50px;
   width: 200px;
   border-radius:30px;
+  padding: 10px;
+  margin: 10px;
   border: 2px solid #00ff87;
   color: #00ff87;
   text-align: center;
   background: transparent;
+  justify-content: center;
 }
 
 /* PODCAST SECTION  */
