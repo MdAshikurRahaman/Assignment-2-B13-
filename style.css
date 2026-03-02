@@ -60,6 +60,7 @@ a{
         #FA09B4,
         #D306CE
     );
+    
 }
 
 /* HERO SECTION */
@@ -67,7 +68,7 @@ a{
 .hero-bg{
   background-image: url("./assets/hero-bg.png");
   background-position: center;
-  padding: 400px 0;
+  padding: 300px 0;
 }
 
 .circle{
@@ -89,6 +90,7 @@ a{
   top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
+  
 }
 
 .hero-tech{
@@ -96,7 +98,7 @@ a{
   justify-content: center;
   align-items: center;
   transform: translateY(80px);
-  margin-top: 20px;
+  margin-top: 110px;
   flex-direction: column;
 }
 
@@ -145,7 +147,7 @@ a{
 }
 
 .subscriber-btn{
-  
+  height: 50px;
   width: 200px;
   border-radius:30px;
   border: 2px solid #00ff87;
